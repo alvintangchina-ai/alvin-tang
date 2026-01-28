@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Tang;Alvin;;;
+FN:Alvin Tang
+ORG:Saipwell Electric Co., Ltd
+TITLE:Sales Manager
+TEL;TYPE=WORK,VOICE:+8615026506417
+TEL;TYPE=CELL,VOICE:+8615026506417
+EMAIL:alvin@saipwell.com
+ADR;TYPE=WORK:;;Building 10, Lane 388, Luodian Road;Shanghai;;;China
+URL:https://www.saipwell.com
+END:VCARD
