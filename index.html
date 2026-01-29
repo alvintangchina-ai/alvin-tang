@@ -69,19 +69,24 @@ h1 {
     color: #6b7280;
     margin-bottom: 4px;
 }
+/* Link styles */
 a {
     color: #0a3d91;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
+/* Action buttons layout */
 .actions {
     margin-top: 28px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 14px;
 }
+
 .btn {
     text-align: center;
     padding: 12px;
@@ -89,11 +94,18 @@ a:hover {
     font-weight: 600;
     font-size: 14px;
     border: 1px solid #0a3d91;
-    color: #0a3d91;
 }
+
+/* Primary button */
 .btn.primary {
     background: #0a3d91;
     color: #fff;
+}
+
+/* Primary button hover */
+.btn.primary:hover {
+    background: #08306f;
+    text-decoration: none;
 }
 @media (max-width: 480px) {
     .actions { grid-template-columns: 1fr; }
@@ -147,10 +159,10 @@ footer {
 </div>
 
 <div class="actions">
+    <a class="btn primary" href="https://wa.me/8615026506417" target="_blank">WhatsApp Chat</a>
     <a class="btn primary" href="mailto:alvin@saipwell.com">Send Email</a>
-    <a class="btn" href="https://wa.me/8615026506417" target="_blank">WhatsApp Chat</a>
-    <a class="btn" href="alvin-tang.vcf" download>Save to Contacts</a>
-    <a class="btn" href="https://www.linkedin.com/in/alvintangchina/" target="_blank">LinkedIn Profile</a>
+    <a class="btn primary" href="https://www.linkedin.com/in/alvintangchina/" target="_blank">LinkedIn Profile</a>
+    <a class="btn primary" href="alvin-tang.vcf" download>Save to Contacts</a>
 </div>
 
 </div>
@@ -158,5 +170,6 @@ footer {
 </div>
 </body>
 </html>
+
 
 
